@@ -14,16 +14,17 @@ npm install
 ```
 
 3. Config
-There is a .env file to manage timeout and port.  
-Default values are:
+There is a .env file to manage timeout and port.  Default values are:
+```
 PORT = 3000
 REQUEST_TIMEOUT_IN_SECONDS=60
+```
 
 4.  Run
 ```
 npm start
 ```
 
-The endpoints are:
-http://localhost:3000/otp
-http://localhost:3000/otp/validate
+### The endpoints are:
+- http://localhost:3000/otp
+- http://localhost:3000/otp/validate
